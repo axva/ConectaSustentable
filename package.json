@@ -1,0 +1,22 @@
+{
+  "name": "conectasustentable",
+  "version": "1.0.0",
+  "description": "Proyecto realizado durante el hackatoon de CampusParty2017 en la vertiente de Ciudades Inteligentes-Eliminación de residuos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axva/ConectaSustentable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axva/ConectaSustentable/issues"
+  },
+  "homepage": "https://github.com/axva/ConectaSustentable#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
