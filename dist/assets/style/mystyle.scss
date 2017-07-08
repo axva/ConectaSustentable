@@ -1,5 +1,6 @@
 $white: #ffffff;
 $success: #39b54a;
+$bground: #00c853;
 $brand: #6d4bad;
 $black2: #131313;
 $transparent: rgba(255, 255, 255, 0.06);
@@ -441,11 +442,40 @@ body {
   font-family: Montserrat, Roboto, Open Sans;
 }
 /*navbar*/
-.logo {
-  margin: 8px auto;
-  height: 44.3px;
+.nav-transparente {
+  box-shadow: none;
+  .logo-blanco {
+    // margin: 8px auto;
+    height: 58px;
+  }
+  .color-scroll {
+    display: none;
+  }
+   background: $bground !important;
 }
 
+.nav-color {
+  .logo-color{
+    display: none;
+  }
+  .transparente-scroll{
+    display: none;
+  }
+  background-color: $white !important;
+  .waves-effect.waves-light{
+    &:first-child{
+      width: 153px;
+    }
+    &:nth-child(2){
+      width: 125px;
+    }
+    &:last-child{
+      width: 175px;
+      background-color: $brand;
+      color: $white;
+    }
+  }
+}
 .btniniciarsesion {
   border-color: $white;
   border-radius: 40px;
@@ -459,7 +489,7 @@ body {
   }
   &.conoceProble {
     height: 892px;
-    background-image: url();
+    background-image: url(../img/map.png);
     background-repeat: no-repeat;
   }
   &.partnerConecta {
@@ -473,6 +503,10 @@ body {
     background-image: url(../img/plant.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+  &.fondo {
+    background-color: $tres;
+    opacity: 0.56;
+  }
   }
 }
 
@@ -481,14 +515,24 @@ body {
   height: 138.5px;
   border-bottom-style: dotted $success2;
 }
-
 .cuandroSletter {
   display: flex;
-  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
   width: 652px;
   height: 447.9px;
   border-radius: 10px;
   background-color: $cuatro;
+  &.centradoSletter {
+    height: 100%;
+    align-items: center;
+  }
+  &.enviarEmail {
+    margin: 0px;
+    width: 100%;
+    height: 80.6px;
+    background-color: $white;
+  }
 }
 /*footer*/
 footer {
@@ -500,6 +544,10 @@ footer {
   margin: 0;
   border: solid 1px;
   background: black;
+}
+.logo{
+  margin: 8px auto;
+  height: 59px;
 }
 #social {
   margin: 12px 21px 0px 0px;
