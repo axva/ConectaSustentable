@@ -38,7 +38,13 @@ $once: #4d4d4d;
     text-align: left;
     color: $once;
   }
+  &.partherConecta {
+    font-size: 62px;
+    line-height: 1.5;
+    color: $white;
+    }
 }
+
 .H1 {
   width: auto;
   height: auto;
@@ -304,7 +310,7 @@ $once: #4d4d4d;
 .bdy {
   width: auto;
   height: auto;
-  font-family: Roboto;
+  font-family: Montserras;
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0px;
@@ -494,9 +500,9 @@ body {
   }
   &.partnerConecta {
     height: 788px;
-    background-color: $dos;
-    // background-image: url();
-    // background-repeat: no-repeat;
+    // background-color: $dos;
+    background-image: url(../img/CORONA.png);
+    background-repeat: no-repeat;
   }
   &.newSletter {
     height: 635px;
@@ -533,6 +539,9 @@ body {
     height: 80.6px;
     background-color: $white;
   }
+}
+.playvideo {
+  height: 138px;
 }
 /*footer*/
 footer {

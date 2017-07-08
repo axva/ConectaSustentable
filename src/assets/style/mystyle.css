@@ -12,6 +12,10 @@
   .ttlo.secundario {
     text-align: left;
     color: #4d4d4d; }
+  .ttlo.partherConecta {
+    font-size: 62px;
+    line-height: 1.5;
+    color: #ffffff; }
 
 .H1 {
   width: auto;
@@ -201,7 +205,7 @@
 .bdy {
   width: auto;
   height: auto;
-  font-family: Roboto;
+  font-family: Montserras;
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0px; }
@@ -306,7 +310,8 @@ body {
     background-repeat: no-repeat; }
   .Secc.partnerConecta {
     height: 788px;
-    background-color: #7fb9ba; }
+    background-image: url(../img/CORONA.png);
+    background-repeat: no-repeat; }
   .Secc.newSletter {
     height: 635px;
     background-image: url(../img/plant.jpg);
@@ -337,6 +342,9 @@ body {
     width: 100%;
     height: 80.6px;
     background-color: #ffffff; }
+
+.playvideo {
+  height: 138px; }
 
 /*footer*/
 footer {
