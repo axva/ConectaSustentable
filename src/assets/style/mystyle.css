@@ -1,65 +1,99 @@
 /*======Estilos de texto======*/
+.ttlo {
+  width: auto;
+  height: auto;
+  font-size: 52px;
+  font-family: Montserrat;
+  font-weight: bold;
+  letter-spacing: 0px; }
+  .ttlo.principal {
+    text-align: right;
+    color: #ffffff; }
+  .ttlo.secundario {
+    text-align: left;
+    color: #4d4d4d; }
+
 .H1 {
   width: auto;
   height: auto;
   font-size: 48px;
   letter-spacing: 0px; }
   .H1.boldText {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #030303;
     font-weight: bold; }
-  .H1.bold70 {
-    font-family: GothamRounded;
+  .H1.bold11 {
+    font-family: Montserrat;
+    color: #4d4d4d;
     font-weight: bold; }
-  .H1.bold40 {
-    font-family: GothamRounded;
+  .H1.boldSucc2 {
+    font-family: Montserrat;
+    color: #a8c32e;
     font-weight: bold; }
-  .H1.boldBrand {
-    font-family: GothamRounded;
+  .H1.boldSalm {
+    font-family: Montserrat;
+    color: #f5755c;
     font-weight: bold; }
   .H1.boldWhite {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #ffffff;
     font-weight: bold; }
   .H1.textReg {
-    font-family: GothamRounded-Book; }
-  .H1.textReg70 {
-    font-family: GothamRounded-Book; }
-  .H1.textReg40 {
-    font-family: GothamRounded-Book; }
-  .H1.textRegBrand {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #030303; }
+  .H1.textReg11 {
+    font-family: Roboto;
+    color: #4d4d4d; }
+  .H1.textRegSucc2 {
+    font-family: Roboto;
+    color: #a8c32e; }
+  .H1.textRegSalm {
+    font-family: Roboto;
+    color: #f5755c; }
   .H1.textRegWhite {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #ffffff; }
 
 .H2 {
   width: auto;
   height: auto;
-  font-size: 36px;
+  font-size: 38px;
   letter-spacing: 0px; }
   .H2.boldText {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #030303;
     font-weight: bold; }
-  .H2.bold70 {
-    font-family: GothamRounded;
+  .H2.bold11 {
+    font-family: Montserrat;
+    color: #4d4d4d;
     font-weight: bold; }
-  .H2.bold40 {
-    font-family: GothamRounded;
+  .H2.boldSucc2 {
+    font-family: Montserrat;
+    color: #a8c32e;
     font-weight: bold; }
-  .H2.boldBrand {
-    font-family: GothamRounded;
+  .H2.boldSalm {
+    font-family: Montserrat;
+    color: #f5755c;
     font-weight: bold; }
   .H2.boldWhite {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #ffffff;
     font-weight: bold; }
   .H2.textReg {
-    font-family: GothamRounded-Book; }
-  .H2.textReg70 {
-    font-family: GothamRounded-Book; }
-  .H2.textReg40 {
-    font-family: GothamRounded-Book; }
-  .H2.textRegBrand {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #030303; }
+  .H2.textReg11 {
+    font-family: Roboto;
+    color: #4d4d4d; }
+  .H2.textRegSucc2 {
+    font-family: Roboto;
+    color: #a8c32e; }
+  .H2.textRegSalm {
+    font-family: Roboto;
+    color: #f5755c; }
   .H2.textRegWhite {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #ffffff; }
 
 .H3 {
   width: auto;
@@ -67,30 +101,40 @@
   font-size: 24px;
   letter-spacing: 0px; }
   .H3.boldText {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #030303;
     font-weight: bold; }
-  .H3.bold70 {
-    font-family: GothamRounded;
+  .H3.bold11 {
+    font-family: Montserrat;
+    color: #4d4d4d;
     font-weight: bold; }
-  .H3.bold40 {
-    font-family: GothamRounded;
+  .H3.boldSucc2 {
+    font-family: Montserrat;
+    color: #a8c32e;
     font-weight: bold; }
-  .H3.boldBrand {
-    font-family: GothamRounded;
+  .H3.boldSalm {
+    font-family: Montserrat;
+    color: #f5755c;
     font-weight: bold; }
   .H3.boldWhite {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #ffffff;
     font-weight: bold; }
   .H3.textReg {
-    font-family: GothamRounded-Book; }
-  .H3.textReg70 {
-    font-family: GothamRounded-Book; }
-  .H3.textReg40 {
-    font-family: GothamRounded-Book; }
-  .H3.textRegBrand {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #030303; }
+  .H3.textReg11 {
+    font-family: Roboto;
+    color: #4d4d4d; }
+  .H3.textRegSucc2 {
+    font-family: Roboto;
+    color: #a8c32e; }
+  .H3.textRegSalm {
+    font-family: Roboto;
+    color: #f5755c; }
   .H3.textRegWhite {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #ffffff; }
 
 .H4 {
   width: auto;
@@ -98,30 +142,40 @@
   font-size: 18px;
   letter-spacing: 0px; }
   .H4.boldText {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #030303;
     font-weight: bold; }
-  .H4.bold70 {
-    font-family: GothamRounded;
+  .H4.bold11 {
+    font-family: Montserrat;
+    color: #4d4d4d;
     font-weight: bold; }
-  .H4.bold40 {
-    font-family: GothamRounded;
+  .H4.boldSucc2 {
+    font-family: Montserrat;
+    color: #a8c32e;
     font-weight: bold; }
-  .H4.boldBrand {
-    font-family: GothamRounded;
+  .H4.boldSalm {
+    font-family: Montserrat;
+    color: #f5755c;
     font-weight: bold; }
   .H4.boldWhite {
-    font-family: GothamRounded;
+    font-family: Montserrat;
+    color: #ffffff;
     font-weight: bold; }
   .H4.textReg {
-    font-family: GothamRounded-Book; }
-  .H4.textReg70 {
-    font-family: GothamRounded-Book; }
-  .H4.textReg40 {
-    font-family: GothamRounded-Book; }
-  .H4.textRegBrand {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #030303; }
+  .H4.textReg11 {
+    font-family: Roboto;
+    color: #4d4d4d; }
+  .H4.textRegSucc2 {
+    font-family: Roboto;
+    color: #a8c32e; }
+  .H4.textRegSalm {
+    font-family: Roboto;
+    color: #f5755c; }
   .H4.textRegWhite {
-    font-family: GothamRounded-Book; }
+    font-family: Roboto;
+    color: #ffffff; }
 
 .Bquote {
   width: auto;
@@ -139,7 +193,10 @@
   .Bquote.quoteBoldBrand {
     font-weight: bold; }
   .Bquote.quoteBoldWhite {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #ffffff; }
+  .Bquote.quoteTextWhite {
+    color: #ffffff; }
 
 .bdy {
   width: auto;
@@ -157,7 +214,10 @@
   .bdy.bdyBoldBrand {
     font-weight: bold; }
   .bdy.bdyBoldWhite {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #ffffff; }
+  .bdy.bdyTextWhite {
+    color: #ffffff; }
 
 .cption {
   width: auto;
@@ -175,13 +235,16 @@
   .cption.cptionBoldBrand {
     font-weight: bold; }
   .cption.cptionBoldWhite {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #ffffff; }
+  .cption.cptionTextWhite {
+    color: #ffffff; }
 
 .smll {
-  width: 58px;
+  width: auto;
   height: auto;
-  font-family: Roboto;
-  font-size: 12px;
+  font-family: OpenSans;
+  font-size: 14px;
   font-weight: normal;
   letter-spacing: 0px; }
   .smll.smllBold {
@@ -193,4 +256,67 @@
   .smll.smllBoldBrand {
     font-weight: bold; }
   .smll.smllBoldWhite {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #9fa3a7; }
+  .smll.smllTextBrand {
+    color: #6d4bad; }
+  .smll.smllTextWhite {
+    color: #ffffff; }
+
+body {
+  font-family: Montserrat, Roboto, Open Sans; }
+
+/*navbar*/
+.logo {
+  margin: 8px auto;
+  height: 44.3px; }
+
+.btniniciarsesion {
+  border-color: #ffffff;
+  border-radius: 40px;
+  border: solid 2px; }
+
+/*main*/
+.Secc {
+  width: 100%; }
+  .Secc.Mask {
+    height: 500px; }
+  .Secc.conoceProble {
+    height: 892px;
+    background-image: url();
+    background-repeat: no-repeat; }
+  .Secc.partnerConecta {
+    height: 788px;
+    background-color: #7fb9ba; }
+  .Secc.newSletter {
+    height: 635px;
+    background-image: url(../img/plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.lineaVerde {
+  width: 171px;
+  height: 138.5px;
+  border-bottom-style: dotted #a8c32e; }
+
+.cuandroSletter {
+  display: flex;
+  justify-content: center;
+  width: 652px;
+  height: 447.9px;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.59); }
+
+/*footer*/
+footer {
+  background-color: #2c2c2c; }
+
+.separador {
+  height: 1px;
+  opacity: 0.1;
+  margin: 0;
+  border: solid 1px;
+  background: black; }
+
+#social {
+  margin: 12px 21px 0px 0px; }

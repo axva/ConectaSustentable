@@ -7,8 +7,8 @@
   }
 
   angular
-    .module("Practica")
-    .component("navBar", navBar)
+    .module("conectasustentable")
+    .component("navbarComponent", navBar)
 
     function navCtrl(){
       var nav = this;

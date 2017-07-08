@@ -7,7 +7,7 @@
   }
 
   angular
-    .module("Practica")
+    .module("conectasustentable")
     .component("mainComponent", mainComponent)
 
   function mainCtrl(){

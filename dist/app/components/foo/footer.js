@@ -7,7 +7,7 @@
   }
 
   angular
-    .module("Practica")
+    .module("conectasustentable")
     .component("customFooter", footer)
 
   function footerCtrl(){

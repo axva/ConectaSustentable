@@ -5,25 +5,26 @@
     <title>Conecta Sustentable</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/mystyle.css">
   </head>
   <body>
-    <nav-bar></nav-bar>
+
+    <navbar-component></navbar-component>
     <ng-view></ng-view>
-    <custum-footer></custum-footer>
+    <custom-footer></custom-footer>
 
     <!-- Siempre poner JQUERY -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <!-- RUtas -->
-    <script src="app/routes.js"></script>
-    <script src=""></script>
-    <script src=""></script>
-    <!-- <script src=""></script>
-    <script src=""></script>
-    <script src=""></script> -->
+    <!-- Rutas -->
+    <script src="app.js"></script>
+    <script src="app/routes/routes.js"></script>
+    <script src="app/components/nav/navbar.js"></script>
+    <script src="app/components/main/main.js"></script>
+    <script src="app/components/footer/footer.js"></script>
   </body>
 </html>
