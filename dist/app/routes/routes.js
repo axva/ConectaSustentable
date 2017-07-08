@@ -7,13 +7,13 @@
 
   function config($routeProvider){
     $routeProvider
-      .when('/',{
+      .when('/sugerencias',{
         template: '<componente-inicio></componente-inicio>'
       })
       .when('/',{
         template: '<main-component></main-component>'
       })
-      .when('/',{
+      .when('/pate',{
         template: '<pate-component></pate-component>'
       })
       .otherwise({ redirectTo: '/' })
